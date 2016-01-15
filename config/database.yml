@@ -1,0 +1,33 @@
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   # For details on connection pooling, see rails configuration guide
+#   # http://guides.rubyonrails.org/configuring.html#database-pooling
+#   pool: 5
+
+development:
+  database: Blog_development
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+
+test:
+  database: Blog_test
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+
+production:
+  database: Blog_production
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
