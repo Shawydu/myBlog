@@ -1,1 +1,6 @@
-<h1>Hello World! MyBlog site is ready to start!</h1>
+<h1>MyBlog articles is right here!</h1>
+
+<% @articles.each do |article| %>
+	<h2><%= article.title %></h2>
+	<p><%= article.content %></p>
+<% end %>
